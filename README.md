@@ -17,4 +17,5 @@ Using my reverse engineering skills I found parts in assembly that are responsib
 * Run `sudo ./zoomHack` when game is opened
 
 ## TODO
+* Automatically get needed export function locations
 * Remove the fog effect for cleaner view
