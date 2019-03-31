@@ -5,9 +5,9 @@
 const std::string HON_PROCESS_NAME = "hon-x86_64";
 const std::string HON_SHARED_LIB = "libgame_shared-x86_64.so";
 
-const unsigned long ZOOM_OUT_LOC = 0x0C998B0;
-const unsigned long PREPARE_CLIENT_STATE_LOC = 0xC97780;
-const unsigned long SETUP_CAMERA_LOC = 0xC97100;
+const unsigned long ZOOM_OUT_LOC = 0x0c99670;
+const unsigned long PREPARE_CLIENT_STATE_LOC = 0x0c97540;
+const unsigned long SETUP_CAMERA_LOC = 0x0c96ec0;
 
 bool patch(Process process, size_t address, void* buf, size_t size)
 {
